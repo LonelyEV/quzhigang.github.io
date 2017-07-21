@@ -13,7 +13,7 @@
 <li>打开需要安装Hexo目录，鼠标右键选择 Git Bash Here 打开Git 命令行窗口 输入以下令</li>
 </ol>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">npm install hexo-cli -g  <span class="comment">## 局安装Hexo</span></div><div class="line">   hexo init <span class="comment">## 始化Hexo</span></div><div class="line">   hexo generate <span class="comment">## 生成静态页面</span></div><div class="line">   hexo server <span class="comment">## 启动本地服务</span></div></pre></td></tr></table></figure>
-<h4 id="安装成功后-【测试地址】-localhost-4000"><a href="#安装成功后-【测试地址】-localhost-4000" class="headerlink" title="安装成功后  【测试地址】 localhost:4000"></a>安装成功后  【测试地址】 localhost:4000</h4><p><img src="../imgs/hexo/01.png" width="600" height="300" alt="hexo安装成功" align="center"></p>
+<h4 id="安装成功后-【测试地址】-localhost-4000"><a href="#安装成功后-【测试地址】-localhost-4000" class="headerlink" title="安装成功后  【测试地址】 localhost:4000"></a>安装成功后  【测试地址】 localhost:4000</h4><p><img src="../imgs/01.png" width="600" height="300" alt="hexo安装成功" align="center"></p>
 <h3 id="配置Github代码仓库及个人域名绑定"><a href="#配置Github代码仓库及个人域名绑定" class="headerlink" title="配置Github代码仓库及个人域名绑定"></a>配置Github代码仓库及个人域名绑定</h3><ol>
 <li>登录 <a href="https://github.com/" target="_blank" rel="external">https://github.com/</a> 新建项目    命名规则必须是 XXX.github.io</li>
 <li>进入到新创建的项目 打开 Settings –&gt; 找到 GitHub Pages 设置Source 下拉菜单为 master branch –&gt; 点击保存;设置 Custom domain 为个人域名</li>
