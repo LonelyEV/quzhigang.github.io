@@ -4,6 +4,7 @@ menu:
   Archives: /archives
   Categories: /categories
   Tags: /tags
+  About: /about
 rss: /atom.xml
 
 # Content
@@ -24,7 +25,9 @@ index_widgets:
 
 # widget behavior
 archive_type: 'monthly'
-show_count: false
+show_count: true
+
+keywords: 屈志刚
 
 # Miscellaneous
 google_analytics:
@@ -39,7 +42,7 @@ fb_app_id:
 # galmenu决定是否开启
 # mp3play决定是否开启音效
 galmenu: true
-mp3play: false
+mp3play: true
 gaymenu_item:
 - name: 首页
   url : /
@@ -49,8 +52,8 @@ gaymenu_item:
   url : /categories
 - name: 归档
   url : /archives
-- name: xxx
-  url : xxxxxxxxx
+- name: 关于
+  url : /about
 - name: xxxx
   url : xxxxxxx
 
@@ -58,6 +61,7 @@ gaymenu_item:
 social:
 - url: https://github.com/qujingpeng
   name: Github
+
 
 # 友情链接
 # name : url
@@ -74,10 +78,10 @@ avatar: https://avatars0.githubusercontent.com/u/20333903?v=3&s=460
 
 
 # 网站统计
-# 站长统计 填写id
-# eg:　
-# CNZZ: 123456789
-CNZZ: 
+baidu_analytics: '7378766e8920d01e2a3dcf3bd0894076'
+
+donate: true
+donate_message: 欣赏此文？求鼓励，求支持！
 
 # 评论
 # 网易云跟帖APPkey
@@ -90,3 +94,5 @@ leancloud_visitors:
   enable: false
   app_id: 
   app_key: 
+
+  

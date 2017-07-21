@@ -8,6 +8,21 @@
     <% if (post.link || post.title){ %>
       <header class="article-header">
         <%- partial('post/title', {class_name: 'article-title'}) %>
+	<!-- 显示阅读和评论数 -->
+        <% if (!index && post.comments && config.wangYi){ %>
+        <br/>
+        <a class="cloud-tie-join-count" href="javascript:void(0);" style="color:gray;font-size:14px;">
+        <span class="icon-sort"></span>
+        <span id="busuanzi_container_page_pv" style="color:#ef7522;font-size:14px;">
+            阅读数: <span id="busuanzi_value_page_pv"></span>次 &nbsp;&nbsp;
+        </span>
+        </a>
+        <a class="cloud-tie-join-count" href="javascript:void(0);" style="color:#ef7522;font-size:14px;">
+            <span class="icon-comment"></span>
+            <span class="join-text" style="color:#ef7522;font-size:14px;">评论数:</span>
+            <span class="join-count">0</span>次
+        </a>
+        <% } %>
         <div>
           <%- partial('post/category', {class_name: 'article-title'}) %>
           <% if (post.layout === "post"){ %>
@@ -39,6 +54,11 @@
   <% if (!index){ %>
     <%- partial('post/nav') %>
   <% } %>
+
+<% if (!index && theme.donate){ %>
+	<%- partial('donate') %>
+<% } %>
+
 </article>
 
 <% if (!index && post.comments && config.disqus_shortname){ %>
@@ -62,3 +82,22 @@
 </script>
 <script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
 <% } %>
+
+<!-- 来必力City版安装代码 -->
+<div id="lv-container" data-id="city" data-uid="MTAyMC8yOTY1MC82MjE4">
+<script type="text/javascript">
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+</script>
+<noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
+</div>
+<!-- City版安装代码已完成 -->

@@ -5,7 +5,6 @@ date: 2017-07-20 16:28:22
 categories: "Hexo教程"
 tags: #Hexo
 description: Hexo搭建个人博客
-reward_type: 1
 ---
 	Hexo搭建个人博客，
 

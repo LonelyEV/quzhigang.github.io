@@ -9,7 +9,7 @@ description: 即使生活低到尘埃里，梦想也要举得高高的
 author: 屈志刚
 email: 598700560@qq.com,jing9241120@sina.com
 language: zh-Hans
-timezone:
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -24,6 +24,7 @@ public_dir: public
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
+about_dir: about
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
@@ -81,3 +82,9 @@ deploy:
   type: git
   repo: https://github.com/qujingpeng/quzhigang.github.io.git
   branch: master
+
+donate_message: 坚持原创技术分享，您的支持将鼓励我继续创作！
+
+search:
+  path: /search.xml
+  field: all
