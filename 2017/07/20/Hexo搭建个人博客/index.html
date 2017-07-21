@@ -13,7 +13,7 @@
 <meta property="og:description" content="Hexo搭建个人博客">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="www.quzhigang.com/2017/07/20/imgs/hexo/01.png">
-<meta property="og:updated_time" content="2017-07-20T10:25:45.386Z">
+<meta property="og:updated_time" content="2017-07-21T02:24:08.064Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo搭建个人博客">
 <meta name="twitter:description" content="Hexo搭建个人博客">
@@ -130,12 +130,14 @@
 </ol>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">##执行如下命令</div><div class="line">   hexo clear</div><div class="line">   hexo generate</div><div class="line">   hexo server</div></pre></td></tr></table></figure>
 <h3 id="Hexo常用命令"><a href="#Hexo常用命令" class="headerlink" title="Hexo常用命令"></a>Hexo常用命令</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">npm install hexo-cli -g <span class="comment">## 安装依赖</span></div><div class="line">   hexo init <span class="comment">##初始化</span></div><div class="line">   hexo generate <span class="comment">## 生成静态页面</span></div><div class="line">   hexo server <span class="comment">## 启动本地服务</span></div><div class="line">   hexo deploy<span class="comment">## 部署hexo</span></div><div class="line">   hexo clear <span class="comment">## 清空缓存文件</span></div><div class="line">   hexo new <span class="string">"博客名称"</span></div><div class="line">   hexo new page <span class="string">"页面"</span></div></pre></td></tr></table></figure>
-<h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><p>博客内使用图片<br>1.</p>
+<h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><h4 id="博客内使用图片"><a href="#博客内使用图片" class="headerlink" title="博客内使用图片"></a>博客内使用图片</h4><pre><code>在 source下新建目录 imgs，然后放入图片，页面使用以下代码加载图片
+</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;img src=&quot;../imgs/01.png&quot; width = &quot;600&quot; height = &quot;300&quot; alt=&quot;hexo安装成功&quot; align=&quot;center&quot; /&gt;</div></pre></td></tr></table></figure>
+<h4 id="多设备更新博客"><a href="#多设备更新博客" class="headerlink" title="多设备更新博客"></a>多设备更新博客</h4><p>1.Git 创建两个分支 master 和 hexo 分支，master 维护要发布的代码，hexo维护开发代码，两台设置只维护同一个hexo分支，详情请看以下链接：<br>    <a href="http://m.blog.csdn.net/csdn_lisword/article/details/73804982" target="_blank" rel="external">多设备更新博客</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="www.quzhigang.com/2017/07/20/Hexo搭建个人博客/" data-id="cj5d6qonr000104wbrwi5hzm9" class="article-share-link">Partager</a>
+      <a data-url="www.quzhigang.com/2017/07/20/Hexo搭建个人博客/" data-id="cj5d8tbzd00002wwb3d28von8" class="article-share-link">Delen</a>
       
       
     </footer>
