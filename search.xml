@@ -64,8 +64,8 @@
     </entry>
     
     <entry>
-      <title><![CDATA[archives]]></title>
-      <url>/archives/index.html</url>
+      <title><![CDATA[categories]]></title>
+      <url>/categories/index.html</url>
       <content type="html"></content>
     </entry>
     
@@ -76,8 +76,8 @@
     </entry>
     
     <entry>
-      <title><![CDATA[categories]]></title>
-      <url>/categories/index.html</url>
+      <title><![CDATA[archives]]></title>
+      <url>/archives/index.html</url>
       <content type="html"></content>
     </entry>
     
