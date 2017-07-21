@@ -64,6 +64,12 @@
     </entry>
     
     <entry>
+      <title><![CDATA[about]]></title>
+      <url>/about/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[categories]]></title>
       <url>/categories/index.html</url>
       <content type="html"></content>
@@ -72,12 +78,6 @@
     <entry>
       <title><![CDATA[archives]]></title>
       <url>/archives/index.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[about]]></title>
-      <url>/about/index.html</url>
       <content type="html"></content>
     </entry>
     
