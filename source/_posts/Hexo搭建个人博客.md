@@ -3,7 +3,7 @@
 title: Hexo搭建个人博客
 date: 2017-07-20 16:28:22
 categories: "Hexo教程"
-tags: #Hexo
+tags: [hexo]
 description: Hexo搭建个人博客
 ---
 	Hexo搭建个人博客，

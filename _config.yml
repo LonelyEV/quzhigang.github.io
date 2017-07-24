@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 靖雨博客
-subtitle: 屈志刚的博客
+title: 靖雨
+subtitle: 不勤以始 将悔至终
 description: 即使生活低到尘埃里，梦想也要举得高高的
 author: 屈志刚
 email: 598700560@qq.com,jing9241120@sina.com
@@ -74,7 +74,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: shana
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -83,8 +83,17 @@ deploy:
   repo: https://github.com/qujingpeng/quzhigang.github.io.git
   branch: master
 
-donate_message: 坚持原创技术分享，您的支持将鼓励我继续创作！
 
-search:
-  path: /search.xml
-  field: all
+
+algolia:
+  applicationID: 'Z4RMT3007C'
+  apiKey: '8d8350c491719f4c319d89abd2fcc5c6'
+  adminApiKey: '4946648820c2fa4bd88d85693996223c'
+  indexName: 'blog'
+  chunkSize: 5000
+  fields:
+    - title
+    - slug
+    - content:strip
+  
+  #set HEXO_ALGOLIA_INDEXING_KEY='Z4RMT3007C'
