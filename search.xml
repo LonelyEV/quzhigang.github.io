@@ -3,6 +3,30 @@
   
     
     <entry>
+      <title><![CDATA[Hexo主题NexT集成-algoia搜索常见问题]]></title>
+      <url>/2017/07/22/Hexo%E4%B8%BB%E9%A2%98NexT%E9%9B%86%E6%88%90-algoia%E6%90%9C%E7%B4%A2%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</url>
+      <content type="html"><![CDATA[<h1 id="hexo版本号及NexT版本"><a href="#hexo版本号及NexT版本" class="headerlink" title="hexo版本号及NexT版本"></a>hexo版本号及NexT版本</h1><p>hexo 3.3.8<br>NexT 5.1.1</p>
+<p><img src="/images/algoia_01.png" width="600" height="300" alt="hexo版本号" align="center">``</p>
+]]></content>
+      
+        <categories>
+            
+            <category> Hexo教程 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> algoia </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Hexo搭建个人博客]]></title>
       <url>/2017/07/20/Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
       <content type="html"><![CDATA[<pre><code>Hexo搭建个人博客，
@@ -13,7 +37,7 @@
 <li>打开需要安装Hexo目录，鼠标右键选择 Git Bash Here 打开Git 命令行窗口 输入以下令</li>
 </ol>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">npm install hexo-cli -g  <span class="comment">## 局安装Hexo</span></div><div class="line">   hexo init <span class="comment">## 始化Hexo</span></div><div class="line">   hexo generate <span class="comment">## 生成静态页面</span></div><div class="line">   hexo server <span class="comment">## 启动本地服务</span></div></pre></td></tr></table></figure>
-<h4 id="安装成功后-【测试地址】-localhost-4000"><a href="#安装成功后-【测试地址】-localhost-4000" class="headerlink" title="安装成功后  【测试地址】 localhost:4000"></a>安装成功后  【测试地址】 localhost:4000</h4><p><img src="../imgs/01.png" width="600" height="300" alt="hexo安装成功" align="center"></p>
+<h4 id="安装成功后-【测试地址】-localhost-4000"><a href="#安装成功后-【测试地址】-localhost-4000" class="headerlink" title="安装成功后  【测试地址】 localhost:4000"></a>安装成功后  【测试地址】 localhost:4000</h4><p><img src="/images/01.png" width="600" height="300" alt="hexo安装成功" align="center"></p>
 <h3 id="配置Github代码仓库及个人域名绑定"><a href="#配置Github代码仓库及个人域名绑定" class="headerlink" title="配置Github代码仓库及个人域名绑定"></a>配置Github代码仓库及个人域名绑定</h3><ol>
 <li>登录 <a href="https://github.com/" target="_blank" rel="external">https://github.com/</a> 新建项目    命名规则必须是 XXX.github.io</li>
 <li>进入到新创建的项目 打开 Settings –&gt; 找到 GitHub Pages 设置Source 下拉菜单为 master branch –&gt; 点击保存;设置 Custom domain 为个人域名</li>
@@ -41,52 +65,14 @@
         </categories>
         
         
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+        
     </entry>
     
   
-  
-    
-    <entry>
-      <title></title>
-      <url>/404.html</url>
-      <content type="html"><![CDATA[<!DOCTYPE HTML>
-<html>
-<head>
-  <meta http-equiv="content-type" content="text/html;charset=utf-8;">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="robots" content="all">
-  <meta name="robots" content="index,follow">
-</head>
-<body>
-<script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8" homepageurl="http://www.quzhigang.com" homepagename="�ص��ҵ���ҳ"></script>
-</body>
-</html>]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[categories]]></title>
-      <url>/categories/index.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[about]]></title>
-      <url>/about/index.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[archives]]></title>
-      <url>/archives/index.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags/index.html</url>
-      <content type="html"><![CDATA[<p>tags: [tag1,tag2,tag3]</p>
-]]></content>
-    </entry>
-    
   
 </search>
