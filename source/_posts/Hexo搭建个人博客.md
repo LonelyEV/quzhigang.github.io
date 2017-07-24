@@ -38,7 +38,7 @@ description: Hexo搭建个人博客
 ```
 
 #### 安装成功后  【测试地址】 localhost:4000
-<img src="http://imgtest.midaigroup.com/quzhigang/01.png" width = "600" height = "300" alt="hexo安装成功" align="center" />
+<img src="/images/01.png" width = "600" height = "300" alt="hexo安装成功" align="center" />
 
 ### 配置Github代码仓库及个人域名绑定
 
