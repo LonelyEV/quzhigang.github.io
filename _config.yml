@@ -86,9 +86,9 @@ deploy:
 
 
 algolia:
-  applicationID: 'Z4RMT3007C'
-  apiKey: '8d8350c491719f4c319d89abd2fcc5c6'
-  adminApiKey: '4946648820c2fa4bd88d85693996223c'
+  applicationID: 'X2RWX1XTIL'
+  apiKey: '9210c6680b718bef31fe509a798ff8e9'
+  adminApiKey: '8fbaeeeedca16cde20ac378fc9c4734f'
   indexName: 'blog'
   chunkSize: 5000
   fields:
